@@ -1,0 +1,12 @@
+package ch_04testPjt;
+
+public class Main {
+	public static void main(String[] args) {
+		//기존의 방법
+		//TransportationWalk transportationWalk = new TransportationWalk();
+		//transportationWalk.move();
+		
+		//spring 이용
+		
+	}
+}

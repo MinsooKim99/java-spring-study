@@ -1,0 +1,8 @@
+package ch_04testPjt;
+
+public class Main {
+	public static void main(String[] args) {
+		TransportationWalk transportationWalk = new TransportationWalk();
+		transportationWalk.move();
+	}
+}

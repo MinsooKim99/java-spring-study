@@ -1,0 +1,10 @@
+package ch_04testPjt;
+
+public class TransportationWalk {
+	public void move() {
+		System.out.println("Walking...");
+	}
+	public static void main(String[] args) {
+		
+	}
+}

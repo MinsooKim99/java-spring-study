@@ -1,0 +1,7 @@
+package ch_03testPjt;
+
+public class Walk {
+	public static void main(String[] args) {
+		
+	}
+}

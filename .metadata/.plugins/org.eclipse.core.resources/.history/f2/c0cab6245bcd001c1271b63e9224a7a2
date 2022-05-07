@@ -1,0 +1,21 @@
+package ch_04testPjt;
+
+import org.springframework.context.support.GenericXmlApplicationContext;
+
+public class Main {
+	public static void main(String[] args) {
+		//기존의 방법
+		//TransportationWalk transportationWalk = new TransportationWalk();
+		//transportationWalk.move();
+		
+		//spring 이용
+		GenericXmlApplicationContext ctx = new GenericXmlApplicationContext("classpath:applicationContext.xml");
+		//xml파일 로드
+		TransportationWalk transportationWalk = ctx.getBean("tWalk",TransportationWalk.class);
+		//객체? 생성
+		transportationWalk.move();
+		
+		ctx.close();
+		// close 필요
+	}
+}

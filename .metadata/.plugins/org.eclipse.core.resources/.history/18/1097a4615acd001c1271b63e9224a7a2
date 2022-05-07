@@ -1,0 +1,14 @@
+package ch_04testPjt;
+
+import org.springframework.context.support.GenericApplicationContext;
+
+public class Main {
+	public static void main(String[] args) {
+		//기존의 방법
+		//TransportationWalk transportationWalk = new TransportationWalk();
+		//transportationWalk.move();
+		
+		//spring 이용
+		GenericApplicationContext ctx = new GenericApplicationContext("classpath:applicationContext.xml");
+	}
+}
