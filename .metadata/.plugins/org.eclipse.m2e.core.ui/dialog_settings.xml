@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\javaspring_study\java-spring-project\ch_04testPjt\src\main\java\ch_04testPjt\Main.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -48,6 +49,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="ch_05testPjt"/>
 			<item value="ch_04testPjt"/>
 			<item value="ch_03testPjt"/>
 		</list>
@@ -69,6 +71,11 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\javaspring_study\강의자료\lec08Pjt001"/>
+			<item value="C:\javaspring_study\강의자료\lec06Pjt002"/>
+			<item value="C:\javaspring_study\java-spring-project\ch_05testPjt"/>
+			<item value="C:\javaspring_study\java-spring-project\ch_04testPjt\pom.xml"/>
+			<item value="C:\Users\rlaal\Downloads\SenierProject-master"/>
 			<item value="C:\javaspring_study\project\ch_03testPjt\pom.xml"/>
 		</list>
 		<list key="projectNameTemplate">
