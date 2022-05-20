@@ -9,7 +9,8 @@ import com.word.dao.WordDao;
 public class WordSearchServiceUseAutowired {
 	
 	@Autowired
-//	@Qualifier("usedDao")
+//	@Qualifier("usedDao") // 동일객체 여러개 생성시
+	// 1. (주로사용)Qualifier값을 만들어 사용 2.bean의 이름과 property의 이름을 똑같게
 	private WordDao wordDao;
 	
 	public WordSearchServiceUseAutowired() {

@@ -8,8 +8,12 @@ import com.word.dao.WordDao;
 
 public class WordRegisterServiceUseInject {
 
-	@Inject
+	@Inject // @Inject: required속성 없다
+	// required속성은 거의 안쓰이므로 사실상 @Autowired랑 동일
+	// 자주 쓰이는건 @Autowired
 	@Named(value="wordDao1")
+	// @Autowired: @Qualifier(별도의 Qualifier 선언) @Inject: @Named(id명)
+	// 같은 기능
 	private WordDao wordDao;
 	
 	public WordRegisterServiceUseInject() {

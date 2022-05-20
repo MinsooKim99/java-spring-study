@@ -9,12 +9,13 @@
  		http://www.springframework.org/schema/context 
  		http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<!-- anotation 사용 (@Autowired(타입), @Resource(이름), @Inject() 등) -->	
+	<!-- anotation 사용 (@Autowired(타입), @Resource(이름), @Inject(required속성 X) 등) -->	
 	<context:annotation-config />
 	
 	<!-- @Autowired를 이용한 의존객체 자동주입 -->
 	<bean id="wordDao" class="com.word.dao.WordDao" >
-		<!-- <qualifier value="usedDao"/> -->
+		<!-- <qualifier value="usedDao"/>  동일객체 여러개 생성시-->
+		<!-- 1. Qualifier값을 만들어 사용 2.bean의 이름과 property의 이름을 똑같게-->
 	</bean>
 	<bean id="wordDao2" class="com.word.dao.WordDao" />
 	<bean id="wordDao3" class="com.word.dao.WordDao" />
